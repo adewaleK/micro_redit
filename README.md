@@ -32,6 +32,17 @@ The project consists of three models: User, Post and Comment models.
 
 `User Model
 `
+This User model consists of the username field for collecting record of all users. This model is related to the Post and Comment models respectively in a one-many relationship. That is, A user can have as many Posts as possible while a Post can only belong to User. The same exists between User and Comment.
+
+
+`Post Model
+`
+This model consists of the title, body and user_id fields. This model has a one-many relationship with the Comment model. A Post can hab]ve as many comments as possible while a Comment can only be attached to a Post.
+
+
+`Comment Model
+`
+This model consists of the body, user_id and post_id fields. A User/Post can have as many comments as possible while a Comment can only belong to a User/Post.
 
 <br>
 <br>
@@ -45,7 +56,7 @@ For more details about the Project and it's requirements go to <a href="https://
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Clone or fork the repo <https://github.com/adewaleK/Enumerable_module.git> to get a copy and explore the content of the Enumerrable  mpdule
+Clone or fork the repo <https://github.com/adewaleK/micro_redit.git> to get a copy and explore the content of the Micro-redit project.
 
 
 <!-- CONTRIBUTING -->
