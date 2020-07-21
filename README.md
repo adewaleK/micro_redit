@@ -32,7 +32,7 @@ The project consists of three models: User, Post and Comment models.
 
 `User Model
 `
-This User model consists of the username field for collecting record of all users. This model is related to the Post and Comment models respectively in a one-many relationship. That is, A user can have as many Posts as possible while a Post can only belong to User. The same exists between User and Comment.
+##This User model consists of the username field for collecting record of all users. This model is related to the Post and Comment models respectively in a one-many relationship. That is, A user can have as many Posts as possible while a Post can only belong to User. The same exists between User and Comment.
 
 
 `Post Model
