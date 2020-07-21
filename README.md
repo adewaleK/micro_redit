@@ -43,7 +43,6 @@ This model consists of the title, body and user_id fields. This model has a one-
 
 `Comment Model
 `
-
 <br /><br />
 This model consists of the body, user_id and post_id fields. A User/Post can have as many comments as possible while a Comment can only belong to a User/Post.
 
